@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generates synthetic PDF bills with many categories and realistic data,
-saving them to data/raw_bills for OCR & ML training/testing.
+Generates balanced synthetic PDF bills across all categories,
+saving them to data/raw_bills/ with consistent labels.csv.
 """
 
 import os
@@ -12,7 +12,7 @@ from reportlab.pdfgen import canvas
 
 fake = Faker()
 
-categories = {
+categories_dict = {
     "books": ["novel", "dictionary", "atlas", "comic", "journal"],
     "grocery": ["rice", "milk", "bread", "sugar", "lentils", "spices"],
     "electronics": ["phone", "charger", "laptop", "headphones", "tablet"],
@@ -34,8 +34,7 @@ categories = {
 output_dir = "data/raw_bills"
 os.makedirs(output_dir, exist_ok=True)
 
-def generate_bill(idx):
-    category = random.choice(list(categories.keys()))
+def generate_bill(category, idx):
     supplier = fake.company()
     customer = fake.name()
     date = fake.date()
@@ -44,7 +43,7 @@ def generate_bill(idx):
 
     items = []
     for _ in range(random.randint(3, 6)):
-        item_name = random.choice(categories[category])
+        item_name = random.choice(categories_dict[category])
         qty = random.randint(1, 5)
         price = round(random.uniform(10, 3000), 2)
         items.append((item_name, qty, price))
@@ -54,10 +53,10 @@ def generate_bill(idx):
     c = canvas.Canvas(filepath, pagesize=A4)
     width, height = A4
 
-    y = height - 50
+    y = height - 120  # generous margin for OCR
     c.setFont("Helvetica-Bold", 16)
     c.drawString(50, y, f"INVOICE / BILL - {category.upper()}")
-    y -= 70  # Increased spacing for better OCR
+    y -= 40
 
     c.setFont("Helvetica-Bold", 13)
     c.drawString(50, y, f"Date: {date}")
@@ -104,7 +103,9 @@ def generate_bill(idx):
 
 if __name__ == "__main__":
     import csv
-    num_bills = 50
+
+    num_per_category = 30  # adjustable — e.g., 30 bills per category
+
     csv_labels_path = os.path.join(output_dir, "labels.csv")
     with open(csv_labels_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
@@ -112,8 +113,12 @@ if __name__ == "__main__":
             "gst_number", "receipt_number", "total"
         ])
         writer.writeheader()
-        for i in range(num_bills):
-            label = generate_bill(i)
-            writer.writerow(label)
+        idx = 0
+        for cat in categories_dict.keys():
+            for _ in range(num_per_category):
+                label = generate_bill(cat, idx)
+                writer.writerow(label)
+                idx += 1
 
-    print(f"✅ Generated {num_bills} synthetic bills and labels CSV at {csv_labels_path}")
+    print(f"\n✅ Generated {idx} balanced synthetic bills across {len(categories_dict)} categories.")
+    print(f"📝 Labels CSV saved at: {csv_labels_path}")
