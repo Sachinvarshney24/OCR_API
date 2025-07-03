@@ -1,0 +1,51 @@
+filename,category,date,supplier,customer,gst_number,receipt_number,total
+0000_kitchenware.pdf,kitchenware,1970-06-14,"Benton, Sullivan and Fisher",Susan Wood,44qILbt4794A1Z5,INV-25694,11823.80
+0001_gardening.pdf,gardening,2008-12-16,Riley-Arnold,Jason Farrell,58TxPWp2150A1Z5,INV-15541,12867.11
+0002_stationery.pdf,stationery,1974-04-02,"Moreno, Cannon and Davis",Kevin Reyes,30rBFYZ1681A1Z5,INV-55372,25975.41
+0003_pets.pdf,pets,2012-07-20,"Pineda, Green and Clark",Rebecca Buchanan,31JZNlS2704A1Z5,INV-60082,16514.31
+0004_pets.pdf,pets,1997-08-15,Oliver LLC,Kristen Hicks,47qvPzj2925A1Z5,INV-55333,29588.30
+0005_sports.pdf,sports,1983-03-13,"Simmons, Hall and Weiss",Jose White,44SmYqj8103A1Z5,INV-62949,30616.43
+0006_toys.pdf,toys,2009-07-29,"Keller, Allen and Rios",Colleen Robertson,99Ygqsx5724A1Z5,INV-97086,12254.02
+0007_kitchenware.pdf,kitchenware,2004-10-05,Carpenter-Stevens,Samantha Brown,99PIMzr5263A1Z5,INV-22247,34131.70
+0008_toys.pdf,toys,2024-08-11,Vega Group,Shannon Willis,13AKZCx4589A1Z5,INV-43043,26326.10
+0009_grocery.pdf,grocery,2022-01-28,Ross LLC,Jeffery Wright,99rWBQI8712A1Z5,INV-79647,20489.04
+0010_medicines.pdf,medicines,2004-10-10,Sanchez Inc,Paula Zuniga,77OkCfU7789A1Z5,INV-10279,10652.84
+0011_gardening.pdf,gardening,2006-06-23,"Lucas, Sharp and Berry",Heather Patton,44JpIKi9871A1Z5,INV-44846,22191.03
+0012_sports.pdf,sports,2000-10-23,Simon LLC,Samantha Phillips,22DTCfZ2560A1Z5,INV-18605,22780.52
+0013_cosmetics.pdf,cosmetics,1990-07-07,Williams-Johnson,Gabrielle Page,17BoWtc7772A1Z5,INV-40533,20181.94
+0014_books.pdf,books,2021-02-09,Watson-Payne,Debra Green,59bAbcq1896A1Z5,INV-66101,29194.05
+0015_pets.pdf,pets,1987-07-18,"Mendez, Tapia and Paul",Courtney Russell,98wTwxx6948A1Z5,INV-16336,18632.35
+0016_sports.pdf,sports,1998-12-29,Buckley-Arellano,Stacey Miller,35mYVcu5475A1Z5,INV-44675,15350.98
+0017_toys.pdf,toys,1997-08-31,Taylor-Martinez,Mrs. Crystal Farley,17eZNvF5039A1Z5,INV-80799,5905.33
+0018_fashion.pdf,fashion,1999-03-22,"Williams, Cross and Shelton",Lynn Fisher,89syAck2561A1Z5,INV-99820,17248.42
+0019_fashion.pdf,fashion,2017-10-15,"Thompson, Little and Reynolds",Mrs. Amber Kennedy,82eWrvj3698A1Z5,INV-55234,5259.16
+0020_stationery.pdf,stationery,1979-03-29,Bennett LLC,Michelle Robinson,44STChh3550A1Z5,INV-90004,24962.32
+0021_gardening.pdf,gardening,1987-03-01,"Riley, Calderon and Peterson",Jeffrey Griffith,48MVxCe4610A1Z5,INV-23336,13713.01
+0022_grocery.pdf,grocery,2011-06-30,Miller Inc,Shirley Bryant,94vrLNx8460A1Z5,INV-64931,5338.06
+0023_pets.pdf,pets,2007-03-11,Vasquez-Mitchell,Patrick Valdez,16CjIuf2116A1Z5,INV-35028,9594.00
+0024_office equipment.pdf,office equipment,1995-01-21,"Spears, Leonard and Wilson",Kim Griffin,26UqjUT4814A1Z5,INV-99527,21227.12
+0025_electronics.pdf,electronics,2018-05-28,"Chavez, Townsend and Thomas",Michael Blankenship,58MzNxW4239A1Z5,INV-35896,15199.59
+0026_cosmetics.pdf,cosmetics,2017-09-07,Cooke Inc,Jose Smith,23aXwWF2370A1Z5,INV-33431,3617.44
+0027_stationery.pdf,stationery,1978-12-11,"Smith, Fields and Gilbert",Kevin Mckenzie,28VTFPn6411A1Z5,INV-73258,25785.66
+0028_sports.pdf,sports,2014-04-03,Calhoun-Snyder,Stephen Meyer,44qZvGf5725A1Z5,INV-78156,12710.96
+0029_cosmetics.pdf,cosmetics,1989-01-03,Robertson-Johnson,Anthony Gibbs,78flmgF5788A1Z5,INV-23897,29397.60
+0030_electronics.pdf,electronics,2015-09-02,Jones-Jones,Oscar Wilkins,43jSDpk8361A1Z5,INV-39178,20959.24
+0031_books.pdf,books,1993-04-19,"Mcdonald, Ashley and Weber",Carrie Morgan,82luwnr6406A1Z5,INV-29809,14467.12
+0032_medicines.pdf,medicines,2002-09-16,Wells PLC,Michael Murphy,97mYpMz2801A1Z5,INV-49296,15548.42
+0033_automotive.pdf,automotive,1974-08-31,"Obrien, Hall and Lucas",Tammy Soto,98LOssL1968A1Z5,INV-64404,19043.72
+0034_furniture.pdf,furniture,2024-01-23,Petersen-Carpenter,Roger Hancock,35sCJfn7028A1Z5,INV-52470,21188.26
+0035_sports.pdf,sports,2024-09-18,Jones-Villarreal,Benjamin Harrell,33oAmvT5473A1Z5,INV-78349,29934.87
+0036_hardware.pdf,hardware,1974-05-27,Moran and Sons,Amy Chan,87PvADK5994A1Z5,INV-25155,5073.86
+0037_furniture.pdf,furniture,1978-02-19,"Merritt, Potter and Duncan",Robert Collins,51NoMvh5074A1Z5,INV-73721,5028.52
+0038_fashion.pdf,fashion,2020-09-30,Mcdowell PLC,Joseph Golden,44tDhgV7390A1Z5,INV-90511,14561.30
+0039_sports.pdf,sports,2022-11-25,Brown-Curtis,Jason Porter,22AiTlS3409A1Z5,INV-39465,31670.24
+0040_stationery.pdf,stationery,1991-01-03,"Conner, Acevedo and Manning",Stanley Alvarez,14FSWJl9585A1Z5,INV-32078,30331.19
+0041_furniture.pdf,furniture,2021-04-26,Guerrero Ltd,Robert Sullivan,93inPeI9851A1Z5,INV-80269,24574.26
+0042_cosmetics.pdf,cosmetics,1971-03-25,"Davis, Anthony and Ingram",Mrs. Mackenzie Jenkins DDS,40dvmHk3599A1Z5,INV-31453,9561.66
+0043_electronics.pdf,electronics,1988-12-11,Sweeney LLC,Pamela Howard,94lzDyJ9624A1Z5,INV-40645,13322.40
+0044_office equipment.pdf,office equipment,1996-07-13,Fernandez Ltd,Melissa Ramos,26tNSYb2423A1Z5,INV-73949,21672.50
+0045_kitchenware.pdf,kitchenware,1992-07-28,Williams Ltd,Sydney Wilson,99bitNL3237A1Z5,INV-44376,18106.20
+0046_grocery.pdf,grocery,2023-09-23,Meyer Ltd,Sabrina Caldwell,73ywEfx9311A1Z5,INV-14358,15906.51
+0047_medicines.pdf,medicines,1996-11-23,"Jackson, Rodriguez and Harrison",Philip Garner,45PfOHe8547A1Z5,INV-69082,30959.06
+0048_office equipment.pdf,office equipment,1985-09-20,"Fleming, Franklin and Gomez",Stephanie Gomez,99ikWug8172A1Z5,INV-20603,23760.33
+0049_toys.pdf,toys,2018-07-20,Klein Inc,Sara Harper,12VeQHA9930A1Z5,INV-30202,22725.34

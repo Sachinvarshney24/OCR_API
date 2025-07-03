@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+opencv-python
+pytesseract
+pdf2image
+pymupdf
+scikit-learn
+spacy
+faker
+reportlab
+
